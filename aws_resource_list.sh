@@ -116,25 +116,3 @@ case $aws_service in
         exit 1
         ;;
 esac
-@dhruva9103
-dhruva9103 commented on Aug 15
-line 41: Aws_service is not converted to lower case .
-aws_service=$(echo "$2" | tr '[:upper:]' '[:lower:]')
-this should solve the issue
-
-@Mlsv-21
-Comment
- 
-Leave a comment
- 
-Footer
-© 2024 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact
-Manage cookies
-Do not share my personal information
